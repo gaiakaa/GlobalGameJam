@@ -2572,3 +2572,24 @@ Referencers of AnimCurveMetaData /Game/FirstPerson/FirstPersonArms/Character/Mes
 [2026.01.29-16.01.42:850][629]AssetCheck: /Game/Bps/Personagens/Ai/BT_NpcBase Validating asset
 [2026.01.29-16.01.58:498][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
 [2026.01.29-16.01.59:353][492]LogSlate: Window 'Save Content' being destroyed
+[2026.01.29-16.03.46:720][379]LogDerivedDataCache: C:/Users/giova/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.01.29-16.04.23:621][ 97]LogSlate: Took 0.008137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2026.01.29-16.04.29:256][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.01.29-16.04.31:572][755]LogSlate: Window 'Save Content' being destroyed
+[2026.01.29-16.04.31:596][755]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.01.29-16.04.31:658][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bps/Personagens/BP_NpcBase] ([2] browsable assets)...
+[2026.01.29-16.04.31:676][755]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Bps/Personagens/BP_NpcBase.BP_NpcBase]
+[2026.01.29-16.04.31:676][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bps/Personagens/BP_NpcBase]
+[2026.01.29-16.04.31:680][755]LogSavePackage: Moving output files for package: /Game/Bps/Personagens/BP_NpcBase
+[2026.01.29-16.04.31:681][755]LogSavePackage: Moving '../../../../../../Users/giova/OneDrive/Documentos/Unreal Projects/ProjetoChaleira/Saved/BP_NpcBase8636800B4DF19A256BB2FA800C12AF56.tmp' to '../../../../../../Users/giova/OneDrive/Documentos/Unreal Projects/ProjetoChaleira/Content/Bps/Personagens/BP_NpcBase.uasset'
+[2026.01.29-16.04.31:688][755]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.289 ms (total: 24.8 sec)
+[2026.01.29-16.04.31:722][755]LogContentValidation: Display: Starting to validate 1 assets
+[2026.01.29-16.04.31:722][755]LogContentValidation: Enabled validators:
+[2026.01.29-16.04.31:722][755]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.01.29-16.04.31:722][755]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.01.29-16.04.31:722][755]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.01.29-16.04.31:722][755]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.01.29-16.04.31:722][755]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.01.29-16.04.31:722][755]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.01.29-16.04.31:722][755]AssetCheck: /Game/Bps/Personagens/BP_NpcBase Validating asset
+[2026.01.29-16.04.48:682][244]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
