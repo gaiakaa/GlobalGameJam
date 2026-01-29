@@ -20,14 +20,14 @@ LogCsvProfiler: Display: Metadata set : platform="Windows"
 LogCsvProfiler: Display: Metadata set : config="Development"
 LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.5-CL-40574608"
 LogCsvProfiler: Display: Metadata set : engineversion="5.5.4-40574608+++UE5+Release-5.5"
-LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.7623] "
-LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|12th Gen Intel(R) Core(TM) i7-12700KF"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.7623] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz"
 LogCsvProfiler: Display: Metadata set : pgoenabled="0"
 LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
 LogCsvProfiler: Display: Metadata set : ltoenabled="0"
 LogCsvProfiler: Display: Metadata set : asan="0"
-LogCsvProfiler: Display: Metadata set : commandline="" "C:\Users\giova\OneDrive\Documentos\Unreal Projects\ProjetoChaleira\ProjetoChaleira.uproject"""
-LogCsvProfiler: Display: Metadata set : loginid="0b1289294b967ade2c13d2a24ebb6e53"
+LogCsvProfiler: Display: Metadata set : commandline="" C:/Users/User/Desktop/jogoGlobal/GlobalGameJam/ProjetoChaleira.uproject""
+LogCsvProfiler: Display: Metadata set : loginid="2a6a965546c624de4c87408be76d5369"
 LogCsvProfiler: Display: Metadata set : llm="0"
 LogStats: Stats thread started at 0.234795
 LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
@@ -36,7 +36,7 @@ LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform
 LogInit: Session CrashGUID >====================================================
          Session CrashGUID >   UECC-Windows-AE18F72C465372F8579A539F4191E8A7
          Session CrashGUID >====================================================
-LogConfig: No local boot hotfix file found at: [../../../../../../Users/giova/OneDrive/Documentos/Unreal Projects/ProjetoChaleira/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
+LogConfig: No local boot hotfix file found at: [../../../../../../Users/User/Desktop/jogoGlobal/GlobalGameJam/Saved/PersistentDownloadDir/HotfixForNextBoot.txt]
 LogAudio: Display: Pre-Initializing Audio Device Manager...
 LogAudio: Display: AudioInfo: 'OPUS' Registered
 LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
@@ -61,7 +61,7 @@ LogConfig: Display: Loading Linux ini files took 0.07 seconds
 LogAssetRegistry: Display: Asset registry cache read as 35.7 MiB from ../../../../../../Users/giova/OneDrive/Documentos/Unreal Projects/ProjetoChaleira/Intermediate/CachedAssetRegistry_0.bin
 LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
 LogPluginManager: Looking for enabled plugins target receipt
-LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/giova/OneDrive/Documentos/Unreal Projects/ProjetoChaleira/Binaries/Win64/*.target
+LogPluginManager: Unable to find target receipt in path: ../../../../../../Users/User/Desktop/jogoGlobal/GlobalGameJam/Binaries/Win64/*.target
 LogPluginManager: Found matching target receipt: ../../../Engine/Binaries/Win64/UnrealEditor.target
 LogPluginManager: Mounting Engine plugin Bridge
 LogPluginManager: Mounting Engine plugin ChaosCloth
@@ -92,8 +92,9 @@ LogPluginManager: Mounting Engine plugin EditorPerformance
 LogPluginManager: Mounting Engine plugin EditorTelemetry
 LogPluginManager: Mounting Engine plugin Fracture
 LogPluginManager: Mounting Engine plugin FullBodyIK
-LogPluginManager: Mounting Engine plugin GeometryFlow
+LogPluginManager: Mounting Engine plugin Fracture
 LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin GeometryFlow
 LogPluginManager: Mounting Engine plugin LocalizableMessage
 LogPluginManager: Mounting Engine plugin LowLevelNetTrace
 LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
@@ -173,6 +174,7 @@ LogPluginManager: Mounting Engine plugin ControlRigModules
 LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
 LogPluginManager: Mounting Engine plugin LiveLink
 LogPluginManager: Mounting Engine plugin EngineCameras
+LogPluginManager: Mounting Engine plugin GameplayCameras
 LogPluginManager: Mounting Engine plugin CameraShakePreviewer
 LogPluginManager: Mounting Engine plugin GameplayCameras
 LogPluginManager: Mounting Engine plugin RigLogic
@@ -266,9 +268,11 @@ LogPluginManager: Mounting Engine plugin ConcertSyncCore
 SourceControl: Revision control is disabled
 SourceControl: Revision control is disabled
 SourceControl: Revision control is disabled
-LogNFORDenoise: NFORDenoise function starting up
-LogStudioTelemetry: Display: Starting StudioTelemetry Module
-LogStudioTelemetry: Started StudioTelemetry Session
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
 LogEOSSDK: Initializing EOSSDK Version:1.17.0-39599718
 LogInit: Using libcurl 8.4.0
 LogInit:  - built for Windows
@@ -293,20 +297,18 @@ LogInit: Creating http thread with maximum 2147483647 concurrent requests
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogOnline: OSS: Created online subsystem instance for: NULL
 LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
-LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
-LogWindows: File 'WinPixGpuCapturer.dll' does not exist
-PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
-LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
-RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogNFORDenoise: NFORDenoise function starting up
+LogStudioTelemetry: Display: Starting StudioTelemetry Module
+LogStudioTelemetry: Started StudioTelemetry Session
 LogInit: ExecutableName: UnrealEditor.exe
 LogInit: Build: ++UE5+Release-5.5-CL-40574608
 LogInit: Platform=WindowsEditor
-LogInit: MachineId=0b1289294b967ade2c13d2a24ebb6e53
+LogInit: MachineId=2a6a965546c624de4c87408be76d5369
 LogInit: DeviceId=
 LogInit: Engine Version: 5.5.4-40574608+++UE5+Release-5.5
 LogInit: Compatible Engine Version: 5.5.0-37670630+++UE5+Release-5.5
 LogInit: Net CL: 37670630
-LogInit: OS: Windows 11 (24H2) [10.0.26100.7623] (), CPU: 12th Gen Intel(R) Core(TM) i7-12700KF, GPU: NVIDIA GeForce RTX 4060
+LogInit: OS: Windows 11 (25H2) [10.0.26200.7623] (), CPU: Intel(R) Core(TM) i5-10400 CPU @ 2.90GHz, GPU: NVIDIA GeForce RTX 3060
 LogInit: Compiled (64-bit): Mar  7 2025 14:49:53
 LogInit: Architecture: x64
 LogInit: Compiled with Visual C++: 19.38.33130.00
